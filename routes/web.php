@@ -7,7 +7,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Halaman home
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+
 // Halaman produk
 Route::get('/halaman', function () {
     return view('halaman');
 })->name('halaman');
+
+// Tambah produk
+Route::get('/produk', function () {
+    return view('produk');
+})->name('produk');

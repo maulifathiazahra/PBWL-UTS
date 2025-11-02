@@ -28,7 +28,7 @@
         }
 
         .btn-custom {
-            background-color: #871922;
+            background-color: #87192d;
             color: white;
             border: none;
         }
