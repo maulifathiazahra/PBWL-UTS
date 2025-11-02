@@ -8,19 +8,19 @@
 
     <style>
         body {
-            background-color: #fcfbf8f7;
+            background-color: #fcfaf8;
         }
 
         .form-control, .form-select {
-            background-color: #ffffe9; /* warna biru muda */
-            border: 1px solid #fff7b3;
+            background-color: #fffee9; /* warna biru muda */
+            border: 1px solid #ffe1b3;
             transition: 0.3s;
         }
 
         .form-control:focus, .form-select:focus {
-            background-color: #ffead6;
-            border-color: #ffba66;
-            box-shadow: 0 0 0 0.2rem rgba(102,179,255,0.25);
+            background-color: #fff0d6;
+            border-color: #ffcf66;
+            box-shadow: 0 0 0 0.2rem rgba(255, 201, 102, 0.808);
         }
 
         .card {
@@ -28,12 +28,12 @@
         }
 
         .btn-success {
-            background-color: #875219;
+            background-color: #871938;
             border-radius: 8px;
         }
 
         .btn-success:hover {
-            background-color: #731533;
+            background-color: #73152b;
         }
 
         label {
